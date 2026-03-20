@@ -41,7 +41,7 @@ function HomePage() {
           </button>
         </a>
 
-        <a className="hover:cursor-pointer" href="https://drive.google.com/file/d/1NTuNce9cN-zYopU54mNMgAoDdagdsrnV/view?usp=sharing" target="_blank" >
+        <a className="hover:cursor-pointer" href="https://drive.google.com/file/d/1NTuNce9cN-zYopU54mNMgAoDdagdsrnV/view" target="_blank" >
           <button className="hover:bg-white hover:text-red-500 hover:border-1 border-1 transition duration-800 px-4 py-1 lg:px-8 lg:py-3 bg-[#ff3333] text-white font-semibold rounded-md cursor-pointer">
             Download CV
           </button>
