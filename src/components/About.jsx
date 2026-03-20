@@ -5,7 +5,7 @@ function About() {
     <section id='about' className='flex flex-col justify-center items-center p-10 pt-18 lg:pt-20 pb-0 font-Montserrat'>
       <p className='text-2xl font-bold lg:text-4xl'>ABOUT</p>
       <div className='w-60 h-60 border-2 rounded-full overflow-hidden flex justify-center mt-7'>
-        <img className='w-50 h-50 object-cover mt-9' src='/img.png'></img>
+        <img className='w-50 h-50 object-cover mt-9' src='/profile.png'></img>
       </div>
       <div className='grid grid-cols-[35%_2%_70%] gap-x-2 gap-y-2 mt-4 font-semibold lg:text-xl'>
         <p>Name</p>
