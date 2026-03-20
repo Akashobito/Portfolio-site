@@ -1,1 +1,35 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+.project-div {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  html {
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+  body {
+    /* background:   #104050; */
+    color: #104050;
+  }
+}
+
+@theme {
+  --font-Roboto: "Roboto Variable", sans-serif;
+  --font-Dancing: 'Dancing Script Variable', sans-serif;
+  --font-Pacifico: 'Pacifico', sans-serif;
+  --font-Goldmand:  'Goldman', system-ui;
+  --font-Montserrat: 'Montserrat Variable', sans-serif;
+  --font-Comforta: 'Comfortaa Variable', system-ui;
+  --font-OleoScript: 'Oleo Script', system-ui;
+;
+}
+
+@layer components {
+  .skillsDiv {
+    @apply w-60 px-4 lg:text-xl lg:w-80 lg:h-20 lg:font-bold lg:flex lg:justify-center lg:items-center rounded-2xl py-2 ring-2 text-center
+    hover:bg-red-500 transition duration-800 hover:cursor-pointer hover:text-white;
+  }
+}
