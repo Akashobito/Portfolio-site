@@ -7,6 +7,7 @@ import Project from "./components/Project";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Skills />
       <Education />
       {/* <Contact /> */}
+      <Analytics />
     </>
   );
 }
