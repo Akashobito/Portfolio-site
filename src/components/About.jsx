@@ -29,7 +29,7 @@ function About() {
 
       </div>
       <p className='text-justify mt-5 text-base font-medium lg:text-xl lg:w-330'>
-        My name is Akash S, a front-end developer focused on building user-friendly, responsive interfaces that balance clean design with practical functionality. I'm passionate about enhancing user experience through modern front-end practices, bringing ideas to life with semantic HTML, modern CSS, and JavaScript to create interactive, accessible, and visually compelling web experiences.
+        My name is Akash S, a front-end developer focused on building user-friendly, responsive interfaces that balance clean design with practical functionality. I'm passionate about enhancing user experience through modern front-end practices, bringing ideas to life with semantic HTML, modern CSS, JavaScript and React JS to create interactive, accessible, and visually compelling web experiences.
       </p>
     </section>
   )

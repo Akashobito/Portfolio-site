@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { easeInOut, motion } from "framer-motion";
 
 function Navbar() {
   const [isNavbar, setIsNavbar] = useState(false);
@@ -83,7 +84,21 @@ function Navbar() {
       </div>
 
       {isNavbar && (
-        <div className="fixed right-0 top-0 bottom-0 w-60 bg-[#104050]  pl-10 pt-10">
+        <motion.div
+        initial={{
+          x: 200
+        }}
+
+        animate={{
+          x: 0
+        }}
+
+        transition={{
+          type: 'tween',
+          duration: 0.5
+        }}
+
+         className="fixed right-0 top-0 bottom-0 w-60 bg-[#104050]  pl-10 pt-10">
           <ul className="flex flex-col py-2 text-xl font-medium [&_li]:py-5">
             <div>
               <i
@@ -223,7 +238,7 @@ function Navbar() {
               <i class="fa-solid fa-envelope"></i>
             </a>
           </div>
-        </div>
+        </motion.div>
       )}
     </nav>
   );
