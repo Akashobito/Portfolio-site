@@ -220,7 +220,7 @@ function Project() {
         className={
           !isScrolltop
             ? "mt-[-12px] px-1 py-2 rounded-full bg-[#104050] text-white flex items-center cursor-pointer lg:hidden"
-            : "px-1 py-2 rounded-full bg-[#104050] text-white flex items-center mt-3 cursor-pointer lg:hidden opacity-0 hover:cursor-auto"
+            : "px-1 py-2 rounded-full bg-[#104050] text-white flex items-center mt-3 cursor-pointer lg:hidden !opacity-0 hover:cursor-auto"
         }
       >
         <i className="fa-solid fa-arrow-down text-sm"></i>
