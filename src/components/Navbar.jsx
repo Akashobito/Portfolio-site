@@ -135,7 +135,7 @@ function Navbar() {
               }}
               transition={{
                 type: "tween",
-                duration: 0.5,
+                duration: 0.3,
                 ease: 'easeInOut'
               }}
               className="fixed right-[-1px] top-0 bottom-0 h-[150vh] w-60 bg-[#104050]  pl-10 pt-10 "
