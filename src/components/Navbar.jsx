@@ -121,9 +121,10 @@ function Navbar() {
               }}
               className="w-full h-[100vh] backdrop-blur-[2px] fixed"
             ></motion.div>
+
             <motion.div
               initial={{
-                x: 200,
+                x: 250,
               }}
               animate={{
                 x: 0,
@@ -134,6 +135,7 @@ function Navbar() {
               transition={{
                 type: "tween",
                 duration: 0.5,
+                ease: 'easeInOut'
               }}
               className="fixed right-[-1px] top-0 bottom-0 w-60 bg-[#104050]  pl-10 pt-10 "
             >
