@@ -123,6 +123,7 @@ function Navbar() {
             ></motion.div>
 
             <motion.div
+              style={{ willChange: "transform" }} //tell browser to use GPU
               initial={{
                 x: 250,
               }}
@@ -130,14 +131,14 @@ function Navbar() {
                 x: 0,
               }}
               exit={{
-                right: -250,
+                x: 250,
               }}
               transition={{
                 type: "tween",
                 duration: 0.5,
                 ease: 'easeInOut'
               }}
-              className="fixed right-[-1px] top-0 bottom-0 w-60 bg-[#104050]  pl-10 pt-10 "
+              className="fixed right-[-1px] top-0 bottom-0 h-[150vh] w-60 bg-[#104050]  pl-10 pt-10 "
             >
               <ul className="flex flex-col py-2 text-xl font-medium [&_li]:py-5">
                 <div>

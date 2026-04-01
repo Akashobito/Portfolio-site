@@ -57,7 +57,7 @@ function Education() {
         </p>
         <p>
           E.G.S Pillay Engineering College , Nagapattinam | 05/2021 – 05/2025{" "}
-          <br className="hidden lg:block"></br>CGPA – 7.89
+          <br className="lg:block"></br>CGPA – 7.89
         </p>
       </motion.div>
 
@@ -86,7 +86,7 @@ function Education() {
         <p className="font-bold ">HIGHER SECONDARY</p>
         <p>
           Karaikal Ammayar Higher Secondary School , Karaikal | 05/2020 –
-          05/2021 <br className="hidden lg:block"></br> Percentage – 82.2 %
+          05/2021 <br className="lg:block"></br> Percentage – 82.2 %
         </p>
       </motion.div>
 
