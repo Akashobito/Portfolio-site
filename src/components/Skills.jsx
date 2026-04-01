@@ -238,27 +238,6 @@ function Skills() {
         >
           FRAMER MOTION
         </motion.div>
-        <motion.div
-          initial={{
-            x: 300,
-            opacity: 0,
-          }}
-          whileInView={{
-            x: 0,
-            opacity: 1,
-            transition: {
-              duration: 0.2,
-              opacity: {
-                delay: 0.3,
-                duration: 0.5,
-              },
-            },
-          }}
-          viewport={{ once: true }}
-          className="skillsDiv"
-        >
-          RESPONSIVE DESIGN
-        </motion.div>
       </motion.div>
     </section>
   );
